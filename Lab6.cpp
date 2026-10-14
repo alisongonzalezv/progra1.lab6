@@ -7,7 +7,7 @@ Lab6::Lab6(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::Lab6Class) {
     ui->setupUi(this);
 
-    // Conexión de botones (Paso 9 de la guía)
+
     connect(ui->btnCalcular, &QPushButton::clicked, this, &Lab6::calcularTotal);
     connect(ui->btnLimpiar, &QPushButton::clicked, this, &Lab6::limpiarFormulario);
 }

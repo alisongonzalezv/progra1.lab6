@@ -21,4 +21,4 @@ private:
     Ui::Lab6Class *ui;
 };
 
-#endif // LAB6_H
+#endif
