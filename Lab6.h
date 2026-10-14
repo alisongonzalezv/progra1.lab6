@@ -1,5 +1,4 @@
 #ifndef LAB6_H
-#ifndef LAB6_H
 #define LAB6_H
 
 #include <QMainWindow>

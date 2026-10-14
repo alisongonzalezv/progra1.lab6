@@ -1,20 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
-    <class>Lab6Class</class>
-    <widget class="QMainWindow" name="Lab6Class">
-        <property name="geometry">
-            <rect>
-                <x>0</x>
-                <y>0</y>
-                <width>400</width>
-                <height>300</height>
-            </rect>
-        </property>
-        <property name="windowTitle">
-            <string>Lab6</string>
-        </property>
-        <widget class="QWidget" name="centralwidget"/>
-    </widget>
-    <resources/>
-    <connections/>
+ <class>Lab6Class</class>
+ <widget class="QMainWindow" name="Lab6Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>711</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lab6</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="lblPrecio">
+      <property name="text">
+       <string>Precio unitario</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDoubleSpinBox" name="spnPrecio">
+      <property name="maximum">
+       <double>1000000.000000000000000</double>
+      </property>
+      <property name="singleStep">
+       <double>100.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblCantidad">
+      <property name="text">
+       <string>Cantidad</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="spnCantidad">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>1000</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnCalcular">
+      <property name="text">
+       <string>Calcular</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnLimpiar">
+      <property name="text">
+       <string>Limpiar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblTotal">
+      <property name="text">
+       <string>Total: </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
 </ui>
